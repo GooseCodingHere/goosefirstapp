@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200px;
+    cursor: pointer;
+}
+.wrapper span.num {
+    font-size: 25px;
+    border-right: 2px solid rgba(0,0,0,0.1);
+    border-left: 2px solid rgba(0,0,0,0.1);
+    pointer-events: none;
+}
